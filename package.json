@@ -1,7 +1,7 @@
 {
-  "name": "react-component-library",
-  "version": "0.0.1",
-  "private": true,
+  "name": "@dmitrii-casapiuc/react-component-library",
+  "version": "1.0.0",
+  "description": "react component library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -56,5 +56,11 @@
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "repository": {
+    "url": "git://github.com/dmitrii-casapiuc/react-component-library.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
